@@ -1,0 +1,7 @@
+﻿{
+  "modules": {
+    {
+      "type": "NetCore.Web.Service.ServiceModule, NetCore.Web.Service"
+    }
+  }
+}

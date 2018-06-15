@@ -1,0 +1,11 @@
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\bin\Debug\netcoreapp2.0\NetCore.Authorization.Web.deps.json
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\bin\Debug\netcoreapp2.0\NetCore.Authorization.Web.runtimeconfig.json
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\bin\Debug\netcoreapp2.0\NetCore.Authorization.Web.runtimeconfig.dev.json
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\bin\Debug\netcoreapp2.0\NetCore.Authorization.Web.dll
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\obj\Debug\netcoreapp2.0\NetCore.Authorization.Web.csprojResolveAssemblyReference.cache
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\obj\Debug\netcoreapp2.0\NetCore.Authorization.Web.csproj.CoreCompileInputs.cache
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\obj\Debug\netcoreapp2.0\NetCore.Authorization.Web.AssemblyInfoInputs.cache
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\obj\Debug\netcoreapp2.0\NetCore.Authorization.Web.AssemblyInfo.cs
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\bin\Debug\netcoreapp2.0\NetCore.Authorization.Web.pdb
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\obj\Debug\netcoreapp2.0\NetCore.Authorization.Web.dll
+E:\Works\Repositories\NetCore.Authorization.Web\NetCore.Authorization.Web\obj\Debug\netcoreapp2.0\NetCore.Authorization.Web.pdb
