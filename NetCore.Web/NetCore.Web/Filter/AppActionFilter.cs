@@ -1,6 +1,7 @@
 ﻿using Microsoft.ApplicationInsights.AspNetCore;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
+using NetCore.Web.Commons;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -17,17 +18,16 @@ namespace NetCore.Web.Filter
             var stopwach = httpContext.Items["StopwachKey"] as Stopwatch;
             stopwach.Stop();
             var time = stopwach.Elapsed;
-
             if (time.TotalSeconds > 5)
             {
-                var factory = (ILoggerFactory)context.HttpContext.RequestServices.GetService(typeof(ILoggerFactory)) ;
-                var logger = factory.CreateLogger<ActionExecutedContext>();
-                logger.LogWarning($"{context.ActionDescriptor.DisplayName}执行耗时:{time.ToString()}");
+                //添加日志
+                LogHelpProvider.Warn(context.ActionDescriptor, $"{context.ActionDescriptor.DisplayName}执行耗时:{time.ToString()}");
             }
         }
 
         public void OnActionExecuting(ActionExecutingContext context)
         {
+            //验证数据
             if (!context.ModelState.IsValid)
             {
                 var modelState = context.ModelState.FirstOrDefault(f => f.Value.Errors.Any());

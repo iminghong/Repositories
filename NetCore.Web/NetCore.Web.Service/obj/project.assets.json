@@ -462,23 +462,26 @@
   },
   "packageFolders": {
     "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Service\\NetCore.Web.Service.csproj",
+      "projectUniqueName": "E:\\Works\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Service\\NetCore.Web.Service.csproj",
       "projectName": "NetCore.Web.Service",
-      "projectPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Service\\NetCore.Web.Service.csproj",
+      "projectPath": "E:\\Works\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Service\\NetCore.Web.Service.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Service\\obj\\",
+      "outputPath": "E:\\Works\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -490,8 +493,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.IService\\NetCore.Web.IService.csproj": {
-              "projectPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.IService\\NetCore.Web.IService.csproj"
+            "E:\\Works\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.IService\\NetCore.Web.IService.csproj": {
+              "projectPath": "E:\\Works\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.IService\\NetCore.Web.IService.csproj"
             }
           }
         }

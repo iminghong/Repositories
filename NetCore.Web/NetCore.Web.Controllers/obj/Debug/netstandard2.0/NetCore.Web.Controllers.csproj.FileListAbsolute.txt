@@ -19,3 +19,15 @@ E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Web.Commons.dll
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Web.Commons.pdb
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.csproj.CopyComplete
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Web.Controllers.deps.json
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Web.Controllers.dll
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Web.Controllers.pdb
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Web.Commons.dll
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Web.Commons.pdb
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.csprojResolveAssemblyReference.cache
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.csproj.CoreCompileInputs.cache
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.AssemblyInfoInputs.cache
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.AssemblyInfo.cs
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.csproj.CopyComplete
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.dll
+E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.pdb

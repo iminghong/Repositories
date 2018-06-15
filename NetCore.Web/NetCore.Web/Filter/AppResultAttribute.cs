@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
+using NetCore.Web.Commons;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -9,15 +10,21 @@ namespace NetCore.Web.Filter
 {
     public class AppResultAttribute : IResultFilter
     {
-        private Stopwatch timer;
+        private Stopwatch stopwach;
         public void OnResultExecuted(ResultExecutedContext context)
         {
-            timer.Stop();
+            stopwach.Stop();
+            var time = stopwach.Elapsed;
+            if (time.TotalSeconds > 5)
+            {
+                //添加日志
+                LogHelpProvider.Warn(context.Exception.TargetSite.ReflectedType, $"{context.ActionDescriptor.DisplayName}执行耗时:{time.ToString()}");
+            }
         }
 
         public void OnResultExecuting(ResultExecutingContext context)
         {
-            timer = Stopwatch.StartNew();
+            stopwach = Stopwatch.StartNew();
         }
     }
 }
