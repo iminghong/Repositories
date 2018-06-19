@@ -48,3 +48,5 @@ E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\Net
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\NetCore.Web.csproj.CopyComplete
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\NetCore.Web.dll
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\NetCore.Web.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web\bin\Debug\netcoreapp2.0\NetCore.Web.Models.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web\bin\Debug\netcoreapp2.0\NetCore.Web.Models.pdb

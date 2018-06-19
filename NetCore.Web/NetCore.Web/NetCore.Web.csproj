@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NetCore.Web.Commons\NetCore.Web.Commons.csproj" />
     <ProjectReference Include="..\NetCore.Web.Controllers\NetCore.Web.Controllers.csproj" />
+    <ProjectReference Include="..\NetCore.Web.Models\NetCore.Web.Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>

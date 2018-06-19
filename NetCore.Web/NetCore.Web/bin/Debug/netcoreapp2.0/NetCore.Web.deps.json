@@ -31,6 +31,7 @@
           "Microsoft.NETCore.App": "2.0.0",
           "NetCore.Web.Commons": "1.0.0",
           "NetCore.Web.Controllers": "1.0.0",
+          "NetCore.Web.Models": "1.0.0",
           "log4net": "2.0.8"
         },
         "runtime": {
@@ -4090,6 +4091,14 @@
           "NetCore.Web.Controllers.dll": {}
         }
       },
+      "NetCore.Web.Models/1.0.0": {
+        "runtime": {
+          "NetCore.Web.Models.dll": {}
+        },
+        "compile": {
+          "NetCore.Web.Models.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -6378,6 +6387,11 @@
       "sha512": ""
     },
     "NetCore.Web.Controllers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCore.Web.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
