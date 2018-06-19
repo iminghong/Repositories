@@ -5068,6 +5068,16 @@
         "runtime": {
           "bin/placeholder/NetCore.Web.Controllers.dll": {}
         }
+      },
+      "NetCore.Web.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/NetCore.Web.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetCore.Web.Models.dll": {}
+        }
       }
     }
   },
@@ -13436,6 +13446,11 @@
       "type": "project",
       "path": "../NetCore.Web.Controllers/NetCore.Web.Controllers.csproj",
       "msbuildProject": "../NetCore.Web.Controllers/NetCore.Web.Controllers.csproj"
+    },
+    "NetCore.Web.Models/1.0.0": {
+      "type": "project",
+      "path": "../NetCore.Web.Models/NetCore.Web.Models.csproj",
+      "msbuildProject": "../NetCore.Web.Models/NetCore.Web.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13448,6 +13463,7 @@
       "Microsoft.NETCore.App >= 2.0.0",
       "NetCore.Web.Commons >= 1.0.0",
       "NetCore.Web.Controllers >= 1.0.0",
+      "NetCore.Web.Models >= 1.0.0",
       "log4net >= 2.0.8"
     ]
   },
@@ -13486,6 +13502,9 @@
             },
             "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Controllers\\NetCore.Web.Controllers.csproj": {
               "projectPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Controllers\\NetCore.Web.Controllers.csproj"
+            },
+            "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Models\\NetCore.Web.Models.csproj": {
+              "projectPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Models\\NetCore.Web.Models.csproj"
             }
           }
         }

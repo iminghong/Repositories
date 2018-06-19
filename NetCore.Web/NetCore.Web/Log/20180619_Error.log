@@ -4,3 +4,24 @@
 2018-06-19 19:18:20,425 线程ID:[18] 日志级别：DEBUG 出错类：NetCore.Web.Controllers.DefaultController property:[(null)] - 错误描述：default controller 
 2018-06-19 19:18:21,812 线程ID:[18] 日志级别：WARN  出错类：Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor property:[(null)] - 错误描述：NetCore.Web.Controllers.DefaultController.Index (NetCore.Web.Controllers)执行耗时:00:00:14.1485051 
 2018-06-19 19:28:34,007 线程ID:[10] 日志级别：DEBUG 出错类：NetCore.Web.Controllers.DefaultController property:[(null)] - 错误描述：default controller 
+2018-06-19 20:00:16,355 线程ID:[11] 日志级别：ERROR 出错类：NetCore.Web.Filter.AppActionFilter property:[(null)] - 错误描述：System.NullReferenceException: Object reference not set to an instance of an object.
+   at NetCore.Web.Filter.AppActionFilter.OnActionExecuting(ActionExecutingContext context) in E:\GitHub\Repositories\NetCore.Web\NetCore.Web\Filter\AppActionFilter.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext() 
+2018-06-19 20:12:03,250 线程ID:[12] 日志级别：DEBUG 出错类：NetCore.Web.Controllers.DefaultController property:[(null)] - 错误描述：default controller 
+2018-06-19 20:12:41,830 线程ID:[12] 日志级别：WARN  出错类：Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor property:[(null)] - 错误描述：NetCore.Web.Controllers.DefaultController.Index (NetCore.Web.Controllers)执行耗时:00:00:06.7712195 
+2018-06-19 20:12:43,383 线程ID:[12] 日志级别：WARN  出错类：Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor property:[(null)] - 错误描述：{"Id":"f0b52fa3-f0a0-4039-b9ee-422d13b5e592","Namespace":"NetCore.Web.Controllers","ClassName":"DefaultController","MethodName":"http://localhost:61502/","Parameter":"[]","ResultValue":"Microsoft.AspNetCore.Mvc.ContentResult","Exception":null,"LogType":"1","InputTime":"2018-06-19 20:12:37","ExecTime":"6.7712195","Ip":"::1","Source":"web"} 
+2018-06-19 20:13:59,419 线程ID:[10] 日志级别：DEBUG 出错类：NetCore.Web.Controllers.DefaultController property:[(null)] - 错误描述：default controller 
+2018-06-19 20:14:30,246 线程ID:[10] 日志级别：WARN  出错类：Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor property:[(null)] - 错误描述：{"Id":"f657f714-a663-4a08-adf2-2d7236c77fc2","Namespace":"NetCore.Web.Controllers","ClassName":"DefaultController","MethodName":"http://localhost:61502/","Parameter":"[]","ResultValue":"{\"Content\":\"11111\",\"ContentType\":null,\"StatusCode\":null}","Exception":null,"LogType":"1","InputTime":"2018-06-19 20:14:30","ExecTime":"3.8607307","Ip":"::1","Source":"web"} 
+2018-06-19 20:15:47,419 线程ID:[16] 日志级别：DEBUG 出错类：NetCore.Web.Controllers.DefaultController property:[(null)] - 错误描述：default controller 
+2018-06-19 20:16:31,694 线程ID:[16] 日志级别：WARN  出错类：Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor property:[(null)] - 错误描述：NetCore.Web.Controllers.DefaultController.Index (NetCore.Web.Controllers)执行耗时:00:00:07.1844242 
+2018-06-19 20:16:34,524 线程ID:[16] 日志级别：WARN  出错类：Microsoft.AspNetCore.Mvc.Controllers.ControllerActionDescriptor property:[(null)] - 错误描述：{"Id":"d828cd03-b582-4873-8af8-d3e83dcdf7c9","Namespace":"NetCore.Web.Controllers","ClassName":"DefaultController","MethodName":"http://localhost:61502/default/index?id=1&name=a&g=c","Parameter":"[{\"Key\":\"id\",\"Value\":[\"1\"]},{\"Key\":\"name\",\"Value\":[\"a\"]},{\"Key\":\"g\",\"Value\":[\"c\"]}]","ResultValue":"{\"Content\":\"11111\",\"ContentType\":null,\"StatusCode\":null}","Exception":null,"LogType":"1","InputTime":"2018-06-19 20:16:20","ExecTime":"7.1844242","Ip":"::1","Source":"web"} 
