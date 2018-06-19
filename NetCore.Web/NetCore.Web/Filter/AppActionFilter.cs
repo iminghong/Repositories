@@ -1,4 +1,5 @@
 ﻿using Microsoft.ApplicationInsights.AspNetCore;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using NetCore.Web.Commons;
@@ -34,6 +35,9 @@ namespace NetCore.Web.Filter
                 string errorMsg = modelState.Value.Errors.First().ErrorMessage;
                 throw new Exception(errorMsg);
             }
+
+            var controller = context.Controller as Controller;
+            //controller.HttpContext.Request.Query
 
             var stopwach = new Stopwatch();
             stopwach.Start();

@@ -48,8 +48,6 @@
       "path": "netstandard.library/2.0.1",
       "files": [
         "LICENSE.TXT",
-        "NETStandard.Library.2.0.1.nupkg.sha512",
-        "NETStandard.Library.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
         "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -167,7 +165,9 @@
         "build/netstandard2.0/ref/mscorlib.dll",
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
-        "lib/netstandard1.0/_._"
+        "lib/netstandard1.0/_._",
+        "netstandard.library.2.0.1.nupkg.sha512",
+        "netstandard.library.nuspec"
       ]
     }
   },
@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.IService\\NetCore.Web.IService.csproj",
-      "projectName": "NetCore.Web.IService",
-      "projectPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.IService\\NetCore.Web.IService.csproj",
+      "projectUniqueName": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Models\\NetCore.Web.Models.csproj",
+      "projectName": "NetCore.Web.Models",
+      "projectPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Models\\NetCore.Web.Models.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.IService\\obj\\",
+      "outputPath": "E:\\GitHub\\Repositories\\NetCore.Web\\NetCore.Web.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
