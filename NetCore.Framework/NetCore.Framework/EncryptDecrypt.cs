@@ -292,7 +292,6 @@ namespace NetCore.Framework
         }
         #endregion
 
-
         #region Base64Decode
         /// <summary>
         /// Base64解密

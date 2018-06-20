@@ -41,7 +41,7 @@ namespace NetCore.Web
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
             /* 配置文件注入方式 */
-            services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
+            services.Configure<ApiSettings>(Configuration.GetSection("ApiSettings"));
             services.AddOptions();
 
             //Area

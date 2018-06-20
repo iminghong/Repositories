@@ -1,12 +1,3 @@
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.deps.json
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.dll
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.pdb
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.csprojAssemblyReference.cache
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.csproj.CoreCompileInputs.cache
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.AssemblyInfoInputs.cache
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.AssemblyInfo.cs
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.dll
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.pdb
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.deps.json
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.dll
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.pdb
@@ -16,3 +7,12 @@ E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstanda
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.AssemblyInfo.cs
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.dll
 E:\Works\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.deps.json
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Web.Commons.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.csprojAssemblyReference.cache
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.csproj.CoreCompileInputs.cache
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.AssemblyInfoInputs.cache
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.AssemblyInfo.cs
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.pdb

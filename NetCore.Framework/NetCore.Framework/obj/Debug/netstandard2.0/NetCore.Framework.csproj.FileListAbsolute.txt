@@ -24,3 +24,12 @@ E:\Works\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netst
 E:\Works\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.AssemblyInfo.cs
 E:\Works\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.dll
 E:\Works\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.pdb
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\bin\Debug\netstandard2.0\NetCore.Framework.deps.json
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\bin\Debug\netstandard2.0\NetCore.Framework.dll
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\bin\Debug\netstandard2.0\NetCore.Framework.pdb
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.csprojAssemblyReference.cache
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.csproj.CoreCompileInputs.cache
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.AssemblyInfoInputs.cache
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.AssemblyInfo.cs
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.dll
+E:\GitHub\Repositories\NetCore.Framework\NetCore.Framework\obj\Debug\netstandard2.0\NetCore.Framework.pdb

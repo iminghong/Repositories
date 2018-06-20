@@ -1,0 +1,5 @@
+
+*.ide
+NetCore.Web/.vs/NetCore.Web/v15/Server/sqlite3/storage.ide-shm
+*.ide-shm
+*.ide-wal

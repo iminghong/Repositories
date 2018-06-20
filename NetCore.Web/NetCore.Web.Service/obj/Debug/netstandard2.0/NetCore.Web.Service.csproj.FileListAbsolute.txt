@@ -1,6 +1,0 @@
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Service\bin\Debug\netstandard2.0\NetCore.Web.Service.deps.json
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Service\bin\Debug\netstandard2.0\NetCore.Web.Service.dll
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Service\obj\Debug\netstandard2.0\NetCore.Web.Service.csprojAssemblyReference.cache
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Service\obj\Debug\netstandard2.0\NetCore.Web.Service.csproj.CoreCompileInputs.cache
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Service\obj\Debug\netstandard2.0\NetCore.Web.Service.AssemblyInfoInputs.cache
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Service\obj\Debug\netstandard2.0\NetCore.Web.Service.AssemblyInfo.cs
