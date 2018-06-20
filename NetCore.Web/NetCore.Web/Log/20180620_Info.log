@@ -1,1 +1,2 @@
 2018-06-20 20:12:03,872 线程ID:[15] 日志级别：DEBUG 出错类：NetCore.Web.Controllers.DefaultController property:[(null)] - 错误描述：default controller 
+2018-06-20 20:28:52,722 线程ID:[14] 日志级别：DEBUG 出错类：NetCore.Web.Controllers.DefaultController property:[(null)] - 错误描述：default controller 

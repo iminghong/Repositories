@@ -1,0 +1,9 @@
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\bin\Debug\netstandard2.0\NetCore.Web.IService.deps.json
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\bin\Debug\netstandard2.0\NetCore.Web.IService.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\bin\Debug\netstandard2.0\NetCore.Web.IService.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\obj\Debug\netstandard2.0\NetCore.Web.IService.csprojAssemblyReference.cache
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\obj\Debug\netstandard2.0\NetCore.Web.IService.csproj.CoreCompileInputs.cache
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\obj\Debug\netstandard2.0\NetCore.Web.IService.AssemblyInfoInputs.cache
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\obj\Debug\netstandard2.0\NetCore.Web.IService.AssemblyInfo.cs
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\obj\Debug\netstandard2.0\NetCore.Web.IService.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.IService\obj\Debug\netstandard2.0\NetCore.Web.IService.pdb
