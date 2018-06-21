@@ -6,4 +6,3 @@ E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Models\obj\Debug\netstandard2.0\N
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Models\obj\Debug\netstandard2.0\NetCore.Web.Models.AssemblyInfo.cs
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Models\obj\Debug\netstandard2.0\NetCore.Web.Models.dll
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Models\obj\Debug\netstandard2.0\NetCore.Web.Models.pdb
-E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Models\obj\Debug\netstandard2.0\NetCore.Web.Models.csprojAssemblyReference.cache

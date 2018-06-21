@@ -50,3 +50,5 @@ E:\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\NetCore.W
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\NetCore.Web.csproj.CopyComplete
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\NetCore.Web.dll
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web\obj\Debug\netcoreapp2.0\NetCore.Web.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web\bin\Debug\netcoreapp2.0\NetCore.Framework.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web\bin\Debug\netcoreapp2.0\NetCore.Framework.pdb

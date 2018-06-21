@@ -31,3 +31,5 @@ E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.csproj.CopyComplete
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.dll
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\obj\Debug\netstandard2.0\NetCore.Web.Controllers.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Framework.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Controllers\bin\Debug\netstandard2.0\NetCore.Framework.pdb

@@ -43,6 +43,8 @@ namespace NetCore.Web
             /* 配置文件注入方式 */
             services.Configure<ApiSettings>(Configuration.GetSection("ApiSettings"));
             services.AddOptions();
+            var apiSett= Configuration.GetSection("ApiSettings").Get<ApiSettings>();
+            HttpRequestProvider.ApiSetting = apiSett;
 
             //Area
             var baseController = typeof(NetCore.Web.Controllers.BaseController);

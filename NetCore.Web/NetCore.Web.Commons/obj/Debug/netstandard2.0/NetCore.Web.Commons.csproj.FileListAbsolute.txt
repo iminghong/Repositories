@@ -16,3 +16,6 @@ E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.AssemblyInfo.cs
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.dll
 E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Framework.dll
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\bin\Debug\netstandard2.0\NetCore.Framework.pdb
+E:\GitHub\Repositories\NetCore.Web\NetCore.Web.Commons\obj\Debug\netstandard2.0\NetCore.Web.Commons.csproj.CopyComplete
