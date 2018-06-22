@@ -12,7 +12,7 @@ namespace NetCore.Web.Commons
         /// <summary>
         /// Cache
         /// </summary>
-        public static CacheManager CacheObj
+        public static CacheManager CacheInstance
         {
             get
             {

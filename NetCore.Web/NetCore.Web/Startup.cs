@@ -19,6 +19,8 @@ using log4net;
 using log4net.Config;
 using System.IO;
 using NetCore.Web.Commons;
+using NetCore.Framework.Cache;
+using Microsoft.Extensions.Caching.Redis;
 
 namespace NetCore.Web
 {
@@ -45,6 +47,13 @@ namespace NetCore.Web
             services.AddOptions();
             var apiSett= Configuration.GetSection("ApiSettings").Get<ApiSettings>();
             HttpRequestProvider.ApiSetting = apiSett;
+
+            //redis
+            var redisSett = Configuration.GetSection("RedisSettings").Get<RedisSettings>();
+            var redisOption = new RedisCacheOptions();
+            redisOption.Configuration = redisSett.Connection;
+            redisOption.InstanceName = redisSett.InstanceName;
+            CacheManager._Cache = new RedisCacheHelper(redisOption, int.Parse(redisSett.DefaultDatabase));
 
             //Area
             var baseController = typeof(NetCore.Web.Controllers.BaseController);

@@ -7,7 +7,7 @@ namespace NetCore.Framework.Cache
     public sealed class CacheManager
     {
         public CacheManager() { }
-        public static ICacheHelper cache;
+        public static ICacheHelper _Cache;
         /// <summary>
         /// 判断缓存是否存在
         /// </summary>
@@ -16,12 +16,12 @@ namespace NetCore.Framework.Cache
         /// <returns></returns>
         public bool Exists<CacheType>(string key) where CacheType : ICacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                return cache.Exists(key);
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                return _Cache.Exists(key);
             else
             {
-                cache = new CacheType();
-                return cache.Exists(key);
+                _Cache = new CacheType();
+                return _Cache.Exists(key);
             }
         }
 
@@ -36,12 +36,12 @@ namespace NetCore.Framework.Cache
             where T : class
             where CacheType : ICacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                return cache.GetCache<T>(key);
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                return _Cache.GetCache<T>(key);
             else
             {
-                cache = new CacheType();
-                return cache.GetCache<T>(key);
+                _Cache = new CacheType();
+                return _Cache.GetCache<T>(key);
             }
         }
 
@@ -53,12 +53,12 @@ namespace NetCore.Framework.Cache
         /// <param name="value">值</param>
         public void Save<CacheType>(string key, object value) where CacheType : ICacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                cache.SetCache(key, value);
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                _Cache.SetCache(key, value);
             else
             {
-                cache = new CacheType();
-                cache.SetCache(key, value);
+                _Cache = new CacheType();
+                _Cache.SetCache(key, value);
             }
         }
 
@@ -71,12 +71,12 @@ namespace NetCore.Framework.Cache
         /// <param name="expiressAbsoulte">绝对过期时间</param>
         public void Save<CacheType>(string key, object value, DateTimeOffset expiressAbsoulte) where CacheType : ICacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                cache.SetCache(key, value, expiressAbsoulte);
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                _Cache.SetCache(key, value, expiressAbsoulte);
             else
             {
-                cache = new CacheType();
-                cache.SetCache(key, value, expiressAbsoulte);
+                _Cache = new CacheType();
+                _Cache.SetCache(key, value, expiressAbsoulte);
             }
         }
 
@@ -89,12 +89,12 @@ namespace NetCore.Framework.Cache
         /// <param name="t">间隔时间</param>
         public void SaveSlidingCache<CacheType>(string key, object value, TimeSpan t) where CacheType : MemoryCacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                cache.SetSlidingCache(key, value, t);
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                _Cache.SetSlidingCache(key, value, t);
             else
             {
-                cache = new CacheType();
-                cache.SetSlidingCache(key, value, t);
+                _Cache = new CacheType();
+                _Cache.SetSlidingCache(key, value, t);
             }
         }
 
@@ -105,12 +105,12 @@ namespace NetCore.Framework.Cache
         /// <param name="key">要删除的key</param>
         public void Delete<CacheType>(string key) where CacheType : ICacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                cache.RemoveCache(key);
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                _Cache.RemoveCache(key);
             else
             {
-                cache = new CacheType();
-                cache.RemoveCache(key);
+                _Cache = new CacheType();
+                _Cache.RemoveCache(key);
             }
         }
 
@@ -120,34 +120,34 @@ namespace NetCore.Framework.Cache
         /// <typeparam name="CacheType"></typeparam>
         public void Dispose<CacheType>() where CacheType : ICacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                cache.Dispose();
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                _Cache.Dispose();
             else
             {
-                cache = new CacheType();
-                cache.Dispose();
+                _Cache = new CacheType();
+                _Cache.Dispose();
             }
         }
 
         public void GetMessage<CacheType>() where CacheType : RedisCacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                cache.GetMssages();
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                _Cache.GetMssages();
             else
             {
-                cache = new CacheType();
-                cache.GetMssages();
+                _Cache = new CacheType();
+                _Cache.GetMssages();
             }
         }
 
         public void Publish<CacheType>(string msg) where CacheType : RedisCacheHelper, new()
         {
-            if (cache != null && typeof(CacheType).Equals(cache.GetType()))
-                cache.Publish(msg);
+            if (_Cache != null && typeof(CacheType).Equals(_Cache.GetType()))
+                _Cache.Publish(msg);
             else
             {
-                cache = new CacheType();
-                cache.Publish(msg);
+                _Cache = new CacheType();
+                _Cache.Publish(msg);
             }
         }
     }
